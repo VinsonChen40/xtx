@@ -1,0 +1,28 @@
+/* 基礎公共樣式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Noto Sans TC", sans-serif;
+  color: #333;
+  height: 4000px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}

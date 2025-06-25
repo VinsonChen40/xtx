@@ -1,0 +1,378 @@
+/* 首頁樣式 */
+
+/* 3.banner */
+.banner {
+  height: 500px;
+  background-color: #f5f5f5;
+}
+
+.banner .wrapper {
+  position: relative;
+  height: 500px;
+  background-color: pink;
+}
+
+/* 3-1.圖片 */
+.banner .pic {
+  display: flex;
+  overflow: hidden;
+}
+
+/* 3-2.側導航 */
+.subnav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.subnav li {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 12px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.subnav li:hover {
+  background-color: #27bb9a;
+}
+
+.subnav li a {
+  margin-right: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.subnav li .classify {
+  margin-right: 14px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.subnav li span {
+  line-height: 50px;
+  font-size: 16px;
+}
+
+/* 3-3.原點指示器 */
+.banner ol {
+  position: absolute;
+  bottom: 16px;
+  right: 17px;
+  display: flex;
+}
+
+.banner ol li {
+  margin-right: 15px;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.banner ol .active {
+  background-color: #fff;
+}
+
+
+/* 4.新鮮好物 */
+/* 4-1.標題 此為公共樣式 */
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  height: 42px;
+}
+
+.title .left {
+  display: flex;
+}
+
+.title .left h3 {
+  margin-right: 35px;
+  font-size: 30px;
+}
+
+.title .left p {
+  align-self: flex-end;
+  color: #a1a1a1;
+}
+
+.title .right .more {
+  line-height: 42px;
+  color: #a1a1a1;
+}
+
+.title .right .more span {
+  margin-left: 10px;
+}
+
+.title .right .more:hover,
+.title .right .more span:hover {
+  color: #27bb9a;
+}
+
+/* 4-2.內容 此為公共樣式 */
+.bd ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bd li {
+  width: 304px;
+  height: 404px;
+  background-color: #ccf7fa;
+  transition: all .3s ease;
+}
+
+.bd li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bd li img {
+  width: 100%;
+}
+
+.bd li .txt {
+  text-align: center;
+}
+
+.bd li .txt h4 {
+  margin-top: 18px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.goods .bd p {
+  font-size: 18px;
+  color: #aa2113;
+}
+
+.goods .bd p span {
+  font-size: 22px;
+  margin-left: 3px;
+}
+
+/* 5.推薦好物 */
+/* 公用模板-修改 */
+.recommend .bd li {
+  background-color: #fff;
+}
+
+.recommend .bd p {
+  color: #a1a1a1
+}
+
+/* 6.熱門品牌 */
+.brand {
+  margin-top: 60px;
+  height: 468px;
+  background-color: #f5f5f5;
+}
+
+.brand .wrapper {
+  overflow: hidden;
+  height: 468px;
+}
+
+/* 6-1.標題 */
+.brand .title {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.brand .button {
+  position: absolute;
+  right: 0;
+  bottom: -25px;
+  display: flex;
+}
+
+.brand .button a {
+  margin-left: 12px;
+  padding: 1px 0px;
+  width: 20px;
+  height: 20px;
+  background-color: #cccccc;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.brand .button .prev:hover,
+.brand .button .next:hover {
+  background-color: #27bb9a;
+}
+
+/* 6-2.內容 */
+
+.brand .bd li {
+  width: 244px;
+  height: 306px;
+}
+
+.brand .bd li:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.brand .bd li img {
+  width: 244px;
+  height: 306px;
+}
+
+/* 7.各類商品box1 */
+/* 7-1.標題 */
+.box1 .title {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.title .right {
+  display: flex;
+}
+
+.title .right ul {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 88px;
+}
+
+.title .right ul a {
+  display: block;
+  padding: 0px 10px;
+  border-radius: 5px;
+  margin-left: 6px;
+  height: 25px;
+  line-height: 25px;
+
+}
+
+.title .right ul a:hover {
+  background-color: #27bb9a;
+  color: #fff;
+}
+
+/* 7-2.內容 */
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .left {
+  width: 260px;
+  height: 620px;
+  overflow: hidden;
+  background-color: pink;
+}
+
+.content .left img {
+  height: 100%;
+  transform: translateX(-180px);
+}
+
+.content .right {
+  width: 968px;
+  height: 620px;
+}
+
+.content .right ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content .right li {
+  position: relative;
+  overflow: hidden;
+  padding: 15px 30px 0px;
+  width: 242px;
+  height: 310px;
+  outline: 1px solid rgb(39, 187, 154, 0);
+  transition: all .2s ease;
+}
+
+.content .right li:hover {
+  outline: 1px solid rgb(39, 187, 154, 1);
+}
+
+.content .pic {
+  width: 180px;
+  height: 150px;
+}
+
+.content .pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.content .txt .info {
+  height: 67px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  line-height: 19px;
+}
+
+.content .txt .info h4 {
+  margin-bottom: 10px;
+}
+
+.content .txt .info p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content .txt .price {
+  color: #af2f22;
+}
+
+.content .txt .price span {
+  margin-left: 5px;
+  font-size: 22px;
+}
+
+/* 產品動畫遮罩 */
+.content li .cover {
+  position: absolute;
+  left: 0;
+  bottom: -86px;
+  padding-top: 15px;
+  width: 242px;
+  height: 84px;
+  background-color: #27bb9a;
+  text-align: center;
+  color: #fff;
+  transition: all .3s ease;
+}
+
+.content li:hover .cover {
+  bottom: 0px;
+}
+
+.content li .cover p:nth-child(1) {
+  font-size: 18px;
+}
+
+.content li .cover p:nth-child(2) {
+  margin: 3px auto 6px;
+  width: 120px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.11);
+}
+
+.content li .cover p:nth-child(3) {
+  font-size: 13px;
+}
