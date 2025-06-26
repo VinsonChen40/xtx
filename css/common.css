@@ -13,11 +13,23 @@
 
 .shortcut .wrapper {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  align-items: center;
   height: 52px;
 }
 
-.shortcut ul {
+.shortcut .wrapper .icofont-fast-delivery {
+  color: #fff;
+  font-size: 45px;
+  transition: all 1s;
+}
+
+.shortcut .wrapper:hover .icofont-fast-delivery {
+  color: #5eb69c;
+  transform: translateX(600px);
+}
+
+.shortcut .wrapper ul {
   display: flex;
   line-height: 52px;
 }

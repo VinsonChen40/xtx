@@ -220,18 +220,20 @@
 /* 6-2.內容 */
 
 .brand .bd li {
+  position: relative;
   width: 244px;
   height: 306px;
+  transition: transform .1s;
 }
 
 .brand .bd li:hover {
-  transform: none;
-  box-shadow: none;
+  transform: scale(1.03);
+  z-index: 10;
 }
 
 .brand .bd li img {
-  width: 244px;
-  height: 306px;
+  width: 100%;
+  height: 100%;
 }
 
 /* 7.各類商品box1 */

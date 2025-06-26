@@ -98,6 +98,16 @@ url("./fonts/icofont.woff") format("woff");
   content: "\eff2";
 }
 
+.icofont-delivery-time:before
+{
+  content: "\ee20";
+}
+
+.icofont-fast-delivery:before
+{
+  content: "\ee21";
+}
+
 [class^="icofont-"].icofont-duotone,
 	[class*=" icofont-"].icofont-duotone
 {
