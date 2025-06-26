@@ -376,3 +376,107 @@
 .content li .cover p:nth-child(3) {
   font-size: 13px;
 }
+
+/* 8.最新專欄 */
+.topic {
+  margin-bottom: 40px;
+}
+
+.topic .title {
+  margin-top: 100px;
+}
+
+.topic-bd ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topic-bd li {
+  width: 405px;
+  height: 355px;
+  transition: all .3s ease;
+}
+
+.topic-bd li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 2px 4px #333;
+}
+
+.topic-bd .pic {
+  position: relative;
+  width: 405px;
+  height: 288px;
+}
+
+.topic-bd .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.topic-bd .txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  width: 405px;
+  height: 67px;
+  color: #666;
+}
+
+.topic-bd .txt .left {
+  display: flex;
+}
+
+.topic-bd .txt .left p {
+  margin-right: 20px;
+}
+
+.topic-bd .txt .left p:nth-child(1) i {
+  color: red;
+}
+
+/* 8-1.圖片定位 */
+.topic-bd .cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0px 15px;
+  width: 405px;
+  height: 98px;
+  background-image: linear-gradient(180deg, rgba(137, 137, 137, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.topic-bd .cover .left {
+  width: 280px;
+  color: #fff;
+}
+
+.topic-bd .cover .left h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.topic-bd .cover .left p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.topic-bd .cover .right {
+  padding: 0px 7px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.topic-bd .cover .right {
+  color: rgb(199, 8, 8);
+}

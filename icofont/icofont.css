@@ -83,6 +83,21 @@ url("./fonts/icofont.woff") format("woff");
   content: "\ea74";
 }
 
+.icofont-love:before
+{
+  content: "\e813";
+}
+
+.icofont-eye-alt:before
+{
+  content: "\ef21";
+}
+
+.icofont-speech-comments:before
+{
+  content: "\eff2";
+}
+
 [class^="icofont-"].icofont-duotone,
 	[class*=" icofont-"].icofont-duotone
 {
